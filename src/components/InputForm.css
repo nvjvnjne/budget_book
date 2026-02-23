@@ -1,0 +1,36 @@
+.inputContainer {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+.input-cluster {
+  background-color: white;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 5px 9px 15px -5px #777777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.inputData {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+select {
+  width: 100%;
+  margin-top: 10px;
+}
+button {
+  padding: 5px 20px;
+  border: solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(222, 251, 241);
+}
